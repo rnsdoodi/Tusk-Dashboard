@@ -7,8 +7,8 @@ import importlib
 import plotly.express as px
 import plotly.graph_objects as go
 
-df = pd.read_csv('C:/Users/siddig khogli/OneDrive/Desktop/PYTHON & MICROSOFT/PCED 30-0-0X/tusked-elephants-project/male-elephant-tusk-size.csv')
 
+df = pd.read_csv('male-elephant-tusk-size.csv')
 
 importlib.reload(temp)
 
@@ -174,6 +174,7 @@ st.markdown(
 
 
 #############################################################################
+
 
 
 
