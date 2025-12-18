@@ -4,7 +4,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
 
-df = pd.read_csv('C:/Users/siddig khogli/OneDrive/Desktop/PYTHON & MICROSOFT/PCED 30-0-0X/tusked-elephants-project/male-elephant-tusk-size.csv')
+
+df = pd.read_csv('male-elephant-tusk-size.csv')
 df
 
 ##########################################################################################################
@@ -133,6 +134,7 @@ post_model.print_model_info()
 
 ##############################################################################################################
 # Dashboard :-
+
 
 
 
